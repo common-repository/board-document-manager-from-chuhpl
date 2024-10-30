@@ -1,0 +1,53 @@
+/* CSS Document */
+/* GOOD TABLE  */
+.bdmNiceTable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	min-width: 600px;
+	max-width: 900px;
+	width: 80%;
+}
+.bdmNiceTable.error > tbody > tr:nth-child(1) {
+	background: #F00;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.bdmNiceTable > tbody > tr > td {
+	padding: 6px;
+	margin: 0px;
+	border: thin solid #CCC;
+}
+.bdmNiceTable > tbody > tr:nth-child(odd) {
+	background: #EEE;
+}
+.bdmNiceTable > tbody > tr:nth-child(even) {
+	background: #FFF;
+}
+.bdmNiceTable > tbody > tr:nth-child(1) {
+	background: #000;
+	font-weight: bold;
+	color: #FFF;
+}
+.bdmNiceTable .header tr {
+	background: #000;
+	font-weight: bold;
+	color: #FFF;
+}
+.bdmNiceTable.header, .bdmNiceTable .header {
+	background: #000 !important;
+	font-weight: bold;
+	color: #FFF !important;
+}
+.bdmNiceTable > tbody > tr:nth-child(1) a {
+	font-weight: bold;
+	color: #FFF;
+}
+.bdmNiceTable input[type=text] {
+	width: auto;
+	max-width: 400px;
+}
+.bdmNiceTable.drag td {
+	resize: both;
+	overflow: auto;
+}
